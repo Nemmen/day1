@@ -35,6 +35,7 @@ import Budget from './components/Budget';
 import StopClock from './components/StopClock';
 import Props from './components/Props';
 import BoxColor from './components/BoxColor';
+import RollnoAssig from './components/RollnoAssig';
 
 function App() {
 
@@ -1036,7 +1037,10 @@ function App() {
         {/* <Props data={data} /> */}
 
         {/* assignment 13 --> box color change */}
-        <BoxColor />
+        {/* <BoxColor /> */}
+
+        {/* assignment 14 --> roll no. */}
+        <RollnoAssig />
 
       </ScrollView>
     </SafeAreaView>
