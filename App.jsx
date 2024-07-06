@@ -36,6 +36,7 @@ import StopClock from './components/StopClock';
 import Props from './components/Props';
 import BoxColor from './components/BoxColor';
 import RollnoAssig from './components/RollnoAssig';
+import ShowMore from './components/ShowMore';
 
 function App() {
 
@@ -1040,7 +1041,10 @@ function App() {
         {/* <BoxColor /> */}
 
         {/* assignment 14 --> roll no. */}
-        <RollnoAssig />
+        {/* <RollnoAssig /> */}
+
+        {/* assignment 15 --> showmore/showless */}
+        <ShowMore />
 
       </ScrollView>
     </SafeAreaView>
