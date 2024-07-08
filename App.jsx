@@ -37,6 +37,7 @@ import Props from './components/Props';
 import BoxColor from './components/BoxColor';
 import RollnoAssig from './components/RollnoAssig';
 import ShowMore from './components/ShowMore';
+import Validation from './components/Validation';
 
 function App() {
 
@@ -1044,7 +1045,10 @@ function App() {
         {/* <RollnoAssig /> */}
 
         {/* assignment 15 --> showmore/showless */}
-        <ShowMore />
+        {/* <ShowMore /> */}
+
+        {/* assignment 16 --> Validation */}
+        <Validation />
 
       </ScrollView>
     </SafeAreaView>

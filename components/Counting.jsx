@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
 		height:755,
 		justifyContent:'center',
 		alignItems:'center',
-		flexDirection:''
+		flexDirection:'',
 	}
 })
 
